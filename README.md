@@ -1,5 +1,4 @@
-# Manchester-epc-energy-analysis
-📊 Energy Performance Analysis of Manchester (2014–2024)
+#Energy Performance Analysis of Manchester (2014–2024)
 
 This project analyzes Energy Performance Certificate (EPC) data for residential properties in Greater Manchester from 2014 to 2024 using SQL Server and Microsoft Power BI. The goal is to evaluate current vs. potential energy efficiency, CO₂ emissions, energy costs, and recommended retrofit measures to support sustainability-focused decision making.
 
