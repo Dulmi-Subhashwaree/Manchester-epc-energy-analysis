@@ -36,7 +36,7 @@ The Power BI `.pbix` file presents interactive visualizations including:
 - Geospatial distribution of EPC certificates  
 
 🔗 **Power BI Dashboard (PBIX):**  
-👉 https://drive.google.com/your-link-here
+👉 (https://drive.google.com/drive/folders/1KAP45DzUyEYecTZjMrieyPoI0jdxW8cd?usp=sharing)
 
 ---
 
