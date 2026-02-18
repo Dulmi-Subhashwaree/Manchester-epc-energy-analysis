@@ -1,111 +1,97 @@
-Energy Performance Analysis of Manchester Local Authorities
-Overview
+# **Energy Performance Analysis of Manchester Local Authorities**
 
-This project analyzes Energy Performance Certificate (EPC) data for residential properties across Greater Manchester using SQL Server and visualizes insights through an interactive Power BI dashboard. The analysis highlights energy efficiency trends, CO₂ emissions, energy costs, and improvement potential to support sustainability and policy decision-making.
+## Overview
+This project analyzes **Energy Performance Certificate (EPC)** data for residential properties across **Greater Manchester** using **SQL Server** and visualizes insights through an interactive **Power BI dashboard**. The analysis focuses on energy efficiency trends, CO₂ emissions, energy costs, and improvement potential to support sustainability and policy decision-making.
 
-Dataset
+---
 
-The project uses two EPC datasets: Certificates and Recommendations, which provide detailed property-level energy performance data and suggested efficiency improvements.
+## Dataset
+The project uses two EPC datasets: **Certificates** and **Recommendations**, providing property-level energy performance data and suggested efficiency improvements.
 
-Source: UK Domestic EPC Open Data Portal
+- **Source:** UK Domestic EPC Open Data Portal  
+- **Format:** CSV  
+- **Coverage period:** 2014–2024  
 
-Format: CSV
+---
 
-Coverage period: 2014–2024
+## Project Components
 
-Project Components
-1. SQL Analysis
-
+### 1. SQL Analysis
 SQL Server (T-SQL) was used for data cleaning, transformation, and integration.
 
 Key tasks include:
+- Cleaning and standardizing EPC data  
+- Removing duplicates and handling missing values  
+- Integrating certificates and recommendations using `LMK_KEY`  
+- Preparing analytical tables for Power BI  
 
-Cleaning and standardizing EPC data
+---
 
-Removing duplicates and handling missing values
+### 2. Power BI Dashboard
+The Power BI `.pbix` file presents interactive visualizations including:
+- Current vs potential energy efficiency  
+- CO₂ emissions by property type and over time  
+- Heating and lighting cost analysis  
+- Recommendation frequency and improvement potential  
+- Geospatial distribution of EPC certificates  
 
-Integrating certificates and recommendations using LMK_KEY
-
-Preparing analytical tables for Power BI
-
-2. Power BI Dashboard
-
-The Power BI .pbix file presents interactive visualizations including:
-
-Current vs potential energy efficiency
-
-CO₂ emissions by property type and over time
-
-Heating and lighting cost analysis
-
-Recommendation frequency and improvement potential
-
-Geospatial distribution of EPC certificates
-
-🔗 Power BI Dashboard (PBIX):
+🔗 **Power BI Dashboard (PBIX):**  
 👉 https://drive.google.com/your-link-here
 
-3. Report
+---
 
+### 3. Report
 A detailed PDF report covering:
+- Data preparation and SQL methodology  
+- Power BI modeling and DAX measures  
+- Results analysis, key findings, and recommendations  
 
-Data preparation and SQL methodology
+---
 
-Power BI modeling and DAX measures
+## Key Findings
+- **85% of properties** show potential for energy efficiency improvement  
+- Average **potential efficiency exceeds current efficiency by ~12 points**  
+- **Heating costs** are the primary contributor to energy expenses and CO₂ emissions  
+- Houses represent the largest opportunity for mass retrofitting  
+- Park Homes are identified as the least energy-efficient property type  
 
-Results analysis, key findings, and recommendations
+---
 
-Key Findings
+## Limitations
+- EPC data does not cover all properties in Manchester  
+- Analysis is based on lodged EPC records, not real-time energy usage  
+- Socio-economic factors were not included  
+- Findings may not fully represent post-2024 conditions  
 
-85% of properties show potential for energy efficiency improvement
+---
 
-Average potential efficiency exceeds current efficiency by ~12 points
+## Recommendations
+- Prioritize **heating and insulation upgrades**  
+- Implement **targeted retrofit programs** for low-efficiency properties  
+- Support local authority energy-efficiency policies  
+- Use dashboards for continuous monitoring and planning  
 
-Heating costs are the primary contributor to energy expenses and CO₂ emissions
+---
 
-Houses represent the largest opportunity for mass retrofitting
+## Challenges
+- Handling large datasets with inconsistent formats  
+- Cleaning corrupted and duplicate values  
+- Designing clear and meaningful Power BI visualizations  
+- Interpreting efficiency gaps across property types  
 
-Park Homes are identified as the least energy-efficient property type
+---
 
-Limitations
+## Conclusion
+The project demonstrates how **SQL Server** and **Power BI** can transform large-scale public EPC data into actionable insights. The findings highlight significant opportunities to improve residential energy efficiency and support sustainable urban planning in Greater Manchester.
 
-EPC data does not cover all properties in Manchester
+---
 
-Analysis is based on lodged EPC records, not real-time energy usage
+## Author
+**Dulmi Subhashwaree**  
+BSc in Applied Data Science Communication (UG)  
 
-Socio-economic factors were not included
+---
 
-Findings may not fully represent post-2024 conditions
+## License
+This project is for **educational purposes only**.
 
-Recommendations
-
-Prioritize heating and insulation upgrades to reduce energy costs and emissions
-
-Implement targeted retrofit programs for low-efficiency property types
-
-Support policy-driven energy efficiency initiatives at the local authority level
-
-Use interactive dashboards for ongoing monitoring and planning
-
-Challenges
-
-Handling large datasets with inconsistent formats
-
-Cleaning corrupted values and duplicate records
-
-Designing clear and meaningful Power BI visualizations
-
-Interpreting efficiency gaps across diverse property types
-
-Conclusion
-
-The analysis reveals a substantial opportunity to improve residential energy efficiency across Greater Manchester. By combining SQL-based data processing with Power BI analytics, the project demonstrates how public EPC data can be transformed into actionable insights for sustainable urban planning and energy policy.
-
-Author
-
-Dulmi Subhashwaree
-BSc in Applied Data Science Communication (UG)
-
-License
-
-This project is for educational purposes only.
